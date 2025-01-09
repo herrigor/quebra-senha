@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "A simple game of guessing a secret code",
   "main": "index.ts",
+  "type": "module",
   "scripts": {
-    "start": "ts-node index.ts",
+    "start": "ts-node index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -13,6 +14,7 @@
     "ts-node": "^10.9.2"
   },
   "devDependencies": {
+    "tsx": "^4.19.2",
     "typescript": "^5.7.3"
   }
 }
